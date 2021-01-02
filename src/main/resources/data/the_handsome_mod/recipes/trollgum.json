@@ -1,0 +1,22 @@
+{
+  "group": "the_handsome_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "result": {
+    "item": "the_handsome_mod:ruski_chew_gum",
+    "count": 4
+  }
+}

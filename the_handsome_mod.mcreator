@@ -1,0 +1,204 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "TNTArmorBootsFireContact",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tnt_armor_boots_fire_contact",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TNTArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tnt_armor",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": true,
+        "ec": false
+      }
+    },
+    {
+      "name": "TNTBoots",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tnt_boots"
+    },
+    {
+      "name": "Liandrys",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "liandrys"
+    },
+    {
+      "name": "LiandrysTornment",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "liandrys_tornment"
+    },
+    {
+      "name": "Torment",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "torment",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ruskiroulette",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruskiroulette",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RuskiChewGum",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruski_chew_gum"
+    },
+    {
+      "name": "ChewingGumFoodEaten",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chewing_gum_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChewingGum",
+      "type": "food",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chewing_gum"
+    },
+    {
+      "name": "Trollgum",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trollgum"
+    },
+    {
+      "name": "Chew",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chew"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.tntboots.tnt_armor_chestplate": "TNT Armor Body",
+      "item.the_handsome_mod.liandrys": "Liandrys Tornment",
+      "item.tntboots.tnt_armor_leggings": "TNT Armor Leggings",
+      "item.the_handsome_mod.tnt_armor_leggings": "TNT Armor Leggings",
+      "item.tntboots.tnt_armor_boots": "TNT Boots",
+      "item.the_handsome_mod.ruski_chew_gum": "Red Chewing Gum",
+      "item.the_handsome_mod.chewing_gum": "Pink Chewing Gum",
+      "item.the_handsome_mod.tnt_armor_boots": "TNT Boots",
+      "item.the_handsome_mod.tnt_armor_helmet": "TNT Armor Helmet",
+      "item.tntboots.tnt_armor_helmet": "TNT Armor Helmet",
+      "item.the_handsome_mod.tnt_armor_chestplate": "TNT Armor Body"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "the_handsome_mod",
+    "modName": "The handsome Mod",
+    "version": "1.0.0",
+    "author": "Die handsome Bois",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.handsomemod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

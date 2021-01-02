@@ -1,0 +1,31 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "chewchew",
+    "customModelName": "Normal",
+    "name": "Red Chewing Gum",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "It is delicious."
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 1,
+    "saturation": 0.3,
+    "eatingSpeed": 60,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "Ruskiroulette"
+    }
+  }
+}

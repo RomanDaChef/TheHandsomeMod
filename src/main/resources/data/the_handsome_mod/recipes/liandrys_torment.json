@@ -1,0 +1,42 @@
+{
+  "group": "the_handsome_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_ingot"
+    },
+    "1": {
+      "item": "minecraft:clay_ball"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "3": {
+      "item": "minecraft:spider_eye"
+    },
+    "4": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "5": {
+      "item": "minecraft:spider_eye"
+    },
+    "6": {
+      "item": "minecraft:clay_ball"
+    },
+    "7": {
+      "item": "minecraft:clay_ball"
+    },
+    "8": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "the_handsome_mod:liandrys",
+    "count": 1
+  }
+}

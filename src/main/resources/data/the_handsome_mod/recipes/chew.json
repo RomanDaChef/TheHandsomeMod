@@ -1,0 +1,22 @@
+{
+  "group": "the_handsome_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    }
+  ],
+  "result": {
+    "item": "the_handsome_mod:chewing_gum",
+    "count": 4
+  }
+}
