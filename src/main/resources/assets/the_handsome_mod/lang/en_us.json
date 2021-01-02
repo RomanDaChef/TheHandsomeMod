@@ -1,13 +1,22 @@
 {
+  "item.minecraft.splash_potion.effect.poggers": "Splash Poggers",
+  "item.the_handsome_mod.tnt_armor_leggings": "TNT Armor Leggings",
+  "advancements.pogchamp.descr": "Pog",
+  "item.the_handsome_mod.tnt_armor_helmet": "TNT Armor Helmet",
+  "item.tntboots.tnt_armor_helmet": "TNT Armor Helmet",
+  "item.the_handsome_mod.tnt_armor_chestplate": "TNT Armor Body",
   "item.tntboots.tnt_armor_chestplate": "TNT Armor Body",
   "item.the_handsome_mod.liandrys": "Liandrys Tornment",
+  "item.the_handsome_mod.pog": "Pog",
   "item.tntboots.tnt_armor_leggings": "TNT Armor Leggings",
-  "item.the_handsome_mod.tnt_armor_leggings": "TNT Armor Leggings",
   "item.tntboots.tnt_armor_boots": "TNT Boots",
   "item.the_handsome_mod.ruski_chew_gum": "Red Chewing Gum",
   "item.the_handsome_mod.chewing_gum": "Pink Chewing Gum",
   "item.the_handsome_mod.tnt_armor_boots": "TNT Boots",
-  "item.the_handsome_mod.tnt_armor_helmet": "TNT Armor Helmet",
-  "item.tntboots.tnt_armor_helmet": "TNT Armor Helmet",
-  "item.the_handsome_mod.tnt_armor_chestplate": "TNT Armor Body"
+  "item.minecraft.tipped_arrow.effect.poggers": "Arrow of Poggers",
+  "advancements.pogchamp.title": "Pogchamp",
+  "item.minecraft.lingering_potion.effect.poggers": "Lingering Poggers",
+  "effect.poggers": "Poggers",
+  "itemGroup.tabhandsome_misc": "Handsome Misc",
+  "item.minecraft.potion.effect.poggers": "Poggers"
 }

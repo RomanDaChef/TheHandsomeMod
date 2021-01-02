@@ -166,23 +166,85 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "chew"
+    },
+    {
+      "name": "HandsomeMisc",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handsome_misc"
+    },
+    {
+      "name": "Poggers",
+      "type": "potion",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poggers"
+    },
+    {
+      "name": "PogItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pog_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pog",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pog"
+    },
+    {
+      "name": "Pogchamp",
+      "type": "achievement",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pogchamp"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.minecraft.splash_potion.effect.poggers": "Splash Poggers",
+      "item.the_handsome_mod.tnt_armor_leggings": "TNT Armor Leggings",
+      "advancements.pogchamp.descr": "Pog",
+      "item.the_handsome_mod.tnt_armor_helmet": "TNT Armor Helmet",
+      "item.tntboots.tnt_armor_helmet": "TNT Armor Helmet",
+      "item.the_handsome_mod.tnt_armor_chestplate": "TNT Armor Body",
       "item.tntboots.tnt_armor_chestplate": "TNT Armor Body",
       "item.the_handsome_mod.liandrys": "Liandrys Tornment",
+      "item.the_handsome_mod.pog": "Pog",
       "item.tntboots.tnt_armor_leggings": "TNT Armor Leggings",
-      "item.the_handsome_mod.tnt_armor_leggings": "TNT Armor Leggings",
       "item.tntboots.tnt_armor_boots": "TNT Boots",
       "item.the_handsome_mod.ruski_chew_gum": "Red Chewing Gum",
       "item.the_handsome_mod.chewing_gum": "Pink Chewing Gum",
       "item.the_handsome_mod.tnt_armor_boots": "TNT Boots",
-      "item.the_handsome_mod.tnt_armor_helmet": "TNT Armor Helmet",
-      "item.tntboots.tnt_armor_helmet": "TNT Armor Helmet",
-      "item.the_handsome_mod.tnt_armor_chestplate": "TNT Armor Body"
+      "item.minecraft.tipped_arrow.effect.poggers": "Arrow of Poggers",
+      "advancements.pogchamp.title": "Pogchamp",
+      "item.minecraft.lingering_potion.effect.poggers": "Lingering Poggers",
+      "effect.poggers": "Poggers",
+      "itemGroup.tabhandsome_misc": "Handsome Misc",
+      "item.minecraft.potion.effect.poggers": "Poggers"
     }
   },
   "workspaceSettings": {
