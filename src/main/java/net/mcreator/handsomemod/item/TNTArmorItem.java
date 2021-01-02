@@ -10,7 +10,6 @@ import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
@@ -20,6 +19,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.handsomemod.procedures.TNTArmorBootsFireContactProcedure;
+import net.mcreator.handsomemod.itemgroup.HandsomeMiscItemGroup;
 import net.mcreator.handsomemod.TheHandsomeModModElements;
 
 import java.util.Map;
@@ -71,7 +71,7 @@ public class TNTArmorItem extends TheHandsomeModModElements.ModElement {
 				return 0f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(HandsomeMiscItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "the_handsome_mod:textures/models/armor/tnt__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";

@@ -10,11 +10,11 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.handsomemod.itemgroup.HandsomeMiscItemGroup;
 import net.mcreator.handsomemod.TheHandsomeModModElements;
 
 import java.util.List;
@@ -33,7 +33,7 @@ public class LiandrysItem extends TheHandsomeModModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.RARE));
+			super(new Item.Properties().group(HandsomeMiscItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("liandrys");
 		}
 

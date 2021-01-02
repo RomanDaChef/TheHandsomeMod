@@ -14,7 +14,7 @@
       "name": "TNTArmorBootsFireContact"
     },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:HandsomeMisc"
     },
     "armorTextureFile": "tnt_",
     "helmetName": "TNT Armor Helmet",

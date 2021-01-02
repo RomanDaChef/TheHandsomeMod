@@ -219,12 +219,22 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pogchamp"
+    },
+    {
+      "name": "HandsomeFood",
+      "type": "tab",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handsome_food"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "itemGroup.tabhandsome_food": "Handsome Food",
       "item.minecraft.splash_potion.effect.poggers": "Splash Poggers",
       "item.the_handsome_mod.tnt_armor_leggings": "TNT Armor Leggings",
       "advancements.pogchamp.descr": "Pog",
