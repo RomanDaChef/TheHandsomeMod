@@ -1,0 +1,31 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "honey_bottle",
+    "customModelName": "Normal",
+    "name": "Jizz Bottle",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Please don't drink it"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:HandsomeOres"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": "Items.GLASS_BOTTLE"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "JizzBottleFoodEaten"
+    }
+  }
+}

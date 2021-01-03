@@ -1,0 +1,12 @@
+{
+  "group": "the_handsome_mod",
+  "type": "minecraft:smelting",
+  "experience": 10,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "the_handsome_mod:copper_ore"
+  },
+  "result": {
+    "item": "the_handsome_mod:copper_ingot"
+  }
+}

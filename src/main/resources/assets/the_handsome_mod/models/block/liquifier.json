@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_handsome_mod:blocks/liqutop",
+    "up": "the_handsome_mod:blocks/liqutop",
+    "north": "the_handsome_mod:blocks/liquside",
+    "east": "the_handsome_mod:blocks/liquside",
+    "south": "the_handsome_mod:blocks/liquside",
+    "west": "the_handsome_mod:blocks/liquside",
+    "particle": "the_handsome_mod:blocks/liqutop"
+  }
+}

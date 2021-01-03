@@ -1,0 +1,21 @@
+{
+  "_fv": 13,
+  "_type": "fluid",
+  "definition": {
+    "name": "Jizz",
+    "textureStill": "milk",
+    "textureFlowing": "milk_flow",
+    "luminosity": 0,
+    "density": 5000,
+    "viscosity": 5000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:HandsomeMisc"
+    },
+    "frequencyOnChunks": 0,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

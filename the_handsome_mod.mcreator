@@ -228,33 +228,265 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "handsome_food"
+    },
+    {
+      "name": "CumOre",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cum_ore"
+    },
+    {
+      "name": "CumShardsItemIsDroppedByPlayer",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cum_shards_item_is_dropped_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CumShards",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cum_shards"
+    },
+    {
+      "name": "HandsomeOres",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handsome_ores"
+    },
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore"
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot"
+    },
+    {
+      "name": "SmeltCopper",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelt_copper"
+    },
+    {
+      "name": "Jizz",
+      "type": "fluid",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizz"
+    },
+    {
+      "name": "Liquifier",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "liquifier"
+    },
+    {
+      "name": "Liqugui",
+      "type": "gui",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "liqugui"
+    },
+    {
+      "name": "Fluidcrafting",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fluidcrafting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fluidrecipe",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fluidrecipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JizzBottleFoodEaten",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizz_bottle_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JizzBottle",
+      "type": "food",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizz_bottle"
+    },
+    {
+      "name": "Extractfluid",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "extractfluid",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabhandsome_food": "Handsome Food",
       "item.minecraft.splash_potion.effect.poggers": "Splash Poggers",
+      "item.the_handsome_mod.jizz_bottle": "Jizz Bottle",
       "item.the_handsome_mod.tnt_armor_leggings": "TNT Armor Leggings",
+      "block.the_handsome_mod.liquifier": "Liquifier",
+      "item.the_handsome_mod.copper_ingot": "Copper Ingot",
+      "itemGroup.tabhandsome_ores": "Handsome Ores",
+      "item.the_handsome_mod.pog": "Pog",
+      "item.the_handsome_mod.ruski_chew_gum": "Red Chewing Gum",
+      "item.the_handsome_mod.chewing_gum": "Pink Chewing Gum",
+      "item.the_handsome_mod.tnt_armor_boots": "TNT Boots",
+      "advancements.pogchamp.title": "Pogchamp",
+      "effect.poggers": "Poggers",
+      "item.minecraft.potion.effect.poggers": "Poggers",
+      "itemGroup.tabhandsome_food": "Handsome Food",
+      "item.the_handsome_mod.cum_shards": "Cum Shards",
+      "block.the_handsome_mod.copper_ore": "Copper Ore",
       "advancements.pogchamp.descr": "Pog",
+      "block.the_handsome_mod.cum_ore": "Cum Ore",
       "item.the_handsome_mod.tnt_armor_helmet": "TNT Armor Helmet",
       "item.tntboots.tnt_armor_helmet": "TNT Armor Helmet",
       "item.the_handsome_mod.tnt_armor_chestplate": "TNT Armor Body",
       "item.tntboots.tnt_armor_chestplate": "TNT Armor Body",
       "item.the_handsome_mod.liandrys": "Liandrys Tornment",
-      "item.the_handsome_mod.pog": "Pog",
       "item.tntboots.tnt_armor_leggings": "TNT Armor Leggings",
       "item.tntboots.tnt_armor_boots": "TNT Boots",
-      "item.the_handsome_mod.ruski_chew_gum": "Red Chewing Gum",
-      "item.the_handsome_mod.chewing_gum": "Pink Chewing Gum",
-      "item.the_handsome_mod.tnt_armor_boots": "TNT Boots",
+      "item.the_handsome_mod.jizz_bucket": "Jizz Bucket",
       "item.minecraft.tipped_arrow.effect.poggers": "Arrow of Poggers",
-      "advancements.pogchamp.title": "Pogchamp",
       "item.minecraft.lingering_potion.effect.poggers": "Lingering Poggers",
-      "effect.poggers": "Poggers",
-      "itemGroup.tabhandsome_misc": "Handsome Misc",
-      "item.minecraft.potion.effect.poggers": "Poggers"
+      "fluid.jizz": "Jizz",
+      "itemGroup.tabhandsome_misc": "Handsome Misc"
     }
   },
   "workspaceSettings": {

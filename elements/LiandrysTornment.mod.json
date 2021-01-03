@@ -28,13 +28,13 @@
         "value": "Items.SPIDER_EYE"
       },
       {
-        "value": "Items.CLAY_BALL"
+        "value": "CUSTOM:JizzBottle"
       },
       {
         "value": "Items.CLAY_BALL"
       },
       {
-        "value": "Items.CLAY_BALL"
+        "value": "CUSTOM:JizzBottle"
       }
     ],
     "recipeReturnStack": {

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_handsome_mod:blocks/jizz",
+    "up": "the_handsome_mod:blocks/jizz",
+    "north": "the_handsome_mod:blocks/jizz",
+    "east": "the_handsome_mod:blocks/jizz",
+    "south": "the_handsome_mod:blocks/jizz",
+    "west": "the_handsome_mod:blocks/jizz",
+    "particle": "the_handsome_mod:blocks/jizz"
+  }
+}
