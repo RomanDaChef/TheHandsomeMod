@@ -2,12 +2,12 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "liqutop",
-    "textureTop": "liqutop",
-    "textureLeft": "liquside",
-    "textureFront": "liquside",
-    "textureRight": "liquside",
-    "textureBack": "liquside",
+    "texture": "liquitop",
+    "textureTop": "liquitop",
+    "textureLeft": "liquitside",
+    "textureFront": "liquitside",
+    "textureRight": "liquitside",
+    "textureBack": "liquitside",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -15,9 +15,9 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "TRANSLUCENT",
     "mx": 0.0,
     "my": 0.0,
     "mz": 0.0,
@@ -43,9 +43,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 126,
     "material": {
-      "value": "IRON"
+      "value": "GLASS"
     },
     "tickRate": 1,
     "tickRandomly": false,
@@ -63,7 +63,7 @@
     "reactionToPushing": "BLOCK",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "GLASS"
     },
     "luminance": 0.0,
     "unbreakable": false,
@@ -92,7 +92,7 @@
     "energyMaxReceive": 200,
     "energyMaxExtract": 200,
     "isFluidTank": true,
-    "fluidCapacity": 10000,
+    "fluidCapacity": 20000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

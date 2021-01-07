@@ -385,7 +385,7 @@ public class LiquguiGui extends TheHandsomeModModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 51, this.guiTop + 16, 65, 20, "liquify", e -> {
+			this.addButton(new Button(this.guiLeft + 51, this.guiTop + 16, 65, 20, "Liquify", e -> {
 				TheHandsomeModMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));

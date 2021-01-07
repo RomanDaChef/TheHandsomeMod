@@ -53,13 +53,13 @@
       {
         "type": "button",
         "data": {
-          "text": "liquify",
+          "text": "Liquify",
           "onClick": {
             "name": "Fluidrecipe"
           },
           "width": 65,
           "height": 20,
-          "name": "liquify",
+          "name": "Liquify",
           "x": 177,
           "y": 53
         }

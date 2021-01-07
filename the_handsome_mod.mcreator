@@ -451,30 +451,396 @@
           }
         ]
       }
+    },
+    {
+      "name": "Jizzinator",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizzinator"
+    },
+    {
+      "name": "Jizzigui",
+      "type": "gui",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizzigui"
+    },
+    {
+      "name": "JizzIngot",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizz_ingot"
+    },
+    {
+      "name": "JizzIngotRecipe",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizz_ingot_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jizzinate",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizzinate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JackoffOnKeyPressed",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jackoff_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jackoff",
+      "type": "keybind",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jackoff"
+    },
+    {
+      "name": "Newday",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "newday",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JizzinatorRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizzinator_recipe"
+    },
+    {
+      "name": "LiquifierRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "liquifier_recipe"
+    },
+    {
+      "name": "JizzArmor",
+      "type": "armor",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizz_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "JizzPickaxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizz_pickaxe"
+    },
+    {
+      "name": "JIzzPick",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "j_izz_pick"
+    },
+    {
+      "name": "JizzShovel",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizz_shovel"
+    },
+    {
+      "name": "JizzShov",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizz_shov"
+    },
+    {
+      "name": "JizzAxe",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizz_axe"
+    },
+    {
+      "name": "Jizzax",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizzax"
+    },
+    {
+      "name": "JizzHoe",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizz_hoe"
+    },
+    {
+      "name": "JizzHo",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizz_ho"
+    },
+    {
+      "name": "JizzSword",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizz_sword"
+    },
+    {
+      "name": "Jizzswor",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizzswor"
+    },
+    {
+      "name": "Jizzhelm",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizzhelm"
+    },
+    {
+      "name": "Jizzbrust",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizzbrust"
+    },
+    {
+      "name": "Jizzhose",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizzhose"
+    },
+    {
+      "name": "Jizzschuhe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jizzschuhe"
+    },
+    {
+      "name": "CopperArmor",
+      "type": "armor",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Copperhelm",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperhelm"
+    },
+    {
+      "name": "Copperbrust",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperbrust"
+    },
+    {
+      "name": "Copperhose",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperhose"
+    },
+    {
+      "name": "Copperschuhe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperschuhe"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "howhorny",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "buttonpresses",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.the_handsome_mod.jizz_shovel": "Jizz Shovel",
       "item.minecraft.splash_potion.effect.poggers": "Splash Poggers",
       "item.the_handsome_mod.jizz_bottle": "Jizz Bottle",
       "item.the_handsome_mod.tnt_armor_leggings": "TNT Armor Leggings",
       "block.the_handsome_mod.liquifier": "Liquifier",
+      "item.the_handsome_mod.jizz_armor_boots": "Jizz Armor Boots",
+      "item.the_handsome_mod.jizz_armor_leggings": "Jizz Armor Leggings",
       "item.the_handsome_mod.copper_ingot": "Copper Ingot",
       "itemGroup.tabhandsome_ores": "Handsome Ores",
+      "block.the_handsome_mod.jizzinator": "Jizzinator",
       "item.the_handsome_mod.pog": "Pog",
+      "item.the_handsome_mod.jizz_hoe": "Jizz Hoe",
+      "item.the_handsome_mod.jizz_pickaxe": "Jizz Pickaxe",
       "item.the_handsome_mod.ruski_chew_gum": "Red Chewing Gum",
       "item.the_handsome_mod.chewing_gum": "Pink Chewing Gum",
       "item.the_handsome_mod.tnt_armor_boots": "TNT Boots",
       "advancements.pogchamp.title": "Pogchamp",
       "effect.poggers": "Poggers",
+      "item.the_handsome_mod.copper_armor_chestplate": "Copper Chestplate",
       "item.minecraft.potion.effect.poggers": "Poggers",
       "itemGroup.tabhandsome_food": "Handsome Food",
       "item.the_handsome_mod.cum_shards": "Cum Shards",
       "block.the_handsome_mod.copper_ore": "Copper Ore",
+      "item.the_handsome_mod.jizz_axe": "Jizz Axe",
       "advancements.pogchamp.descr": "Pog",
       "block.the_handsome_mod.cum_ore": "Cum Ore",
+      "item.the_handsome_mod.jizz_ingot": "Jizz Ingot",
+      "key.mcreator.jackoff": "Jack off",
+      "item.the_handsome_mod.copper_armor_boots": "Copper Boots",
       "item.the_handsome_mod.tnt_armor_helmet": "TNT Armor Helmet",
       "item.tntboots.tnt_armor_helmet": "TNT Armor Helmet",
       "item.the_handsome_mod.tnt_armor_chestplate": "TNT Armor Body",
@@ -482,11 +848,16 @@
       "item.the_handsome_mod.liandrys": "Liandrys Tornment",
       "item.tntboots.tnt_armor_leggings": "TNT Armor Leggings",
       "item.tntboots.tnt_armor_boots": "TNT Boots",
+      "item.the_handsome_mod.copper_armor_helmet": "Copper Helmet",
       "item.the_handsome_mod.jizz_bucket": "Jizz Bucket",
+      "item.the_handsome_mod.jizz_armor_helmet": "Jizz Armor Helmet",
       "item.minecraft.tipped_arrow.effect.poggers": "Arrow of Poggers",
+      "item.the_handsome_mod.copper_armor_leggings": "Copper Leggings",
       "item.minecraft.lingering_potion.effect.poggers": "Lingering Poggers",
       "fluid.jizz": "Jizz",
-      "itemGroup.tabhandsome_misc": "Handsome Misc"
+      "item.the_handsome_mod.jizz_sword": "Jizz Sword",
+      "itemGroup.tabhandsome_misc": "Handsome Misc",
+      "item.the_handsome_mod.jizz_armor_chestplate": "Jizz Armor Body"
     }
   },
   "workspaceSettings": {

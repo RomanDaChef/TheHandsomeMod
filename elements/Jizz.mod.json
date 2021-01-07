@@ -7,15 +7,21 @@
     "textureFlowing": "milk_flow",
     "luminosity": 0,
     "density": 5000,
-    "viscosity": 5000,
+    "viscosity": 15000,
     "isGas": false,
     "type": "WATER",
     "generateBucket": true,
     "creativeTab": {
       "value": "CUSTOM:HandsomeMisc"
     },
-    "frequencyOnChunks": 0,
-    "spawnWorldTypes": [],
-    "restrictionBiomes": []
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "mountains"
+      }
+    ]
   }
 }
