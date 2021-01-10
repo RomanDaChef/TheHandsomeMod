@@ -41,6 +41,13 @@ public class NewdayProcedure extends TheHandsomeModModElements.ModElement {
 				capability.syncPlayerVariables(entity);
 			});
 		}
+		{
+			double _setval = (double) 0;
+			entity.getCapability(TheHandsomeModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+				capability.test = _setval;
+				capability.syncPlayerVariables(entity);
+			});
+		}
 	}
 
 	@SubscribeEvent

@@ -13,40 +13,40 @@ import net.minecraft.item.IItemTier;
 import net.mcreator.handsomemod.TheHandsomeModModElements;
 
 @TheHandsomeModModElements.ModElement.Tag
-public class JizzShovelItem extends TheHandsomeModModElements.ModElement {
-	@ObjectHolder("the_handsome_mod:jizz_shovel")
+public class CopperShovelItem extends TheHandsomeModModElements.ModElement {
+	@ObjectHolder("the_handsome_mod:copper_shovel")
 	public static final Item block = null;
-	public JizzShovelItem(TheHandsomeModModElements instance) {
-		super(instance, 37);
+	public CopperShovelItem(TheHandsomeModModElements instance) {
+		super(instance, 60);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 1000;
+				return 200;
 			}
 
 			public float getEfficiency() {
-				return 9f;
+				return 8f;
 			}
 
 			public float getAttackDamage() {
-				return 3.5f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
-				return 1;
-			}
-
-			public int getEnchantability() {
 				return 2;
 			}
 
-			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(JizzIngotItem.block, (int) (1)));
+			public int getEnchantability() {
+				return 15;
 			}
-		}, 1, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
-		}.setRegistryName("jizz_shovel"));
+
+			public Ingredient getRepairMaterial() {
+				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block, (int) (1)));
+			}
+		}, 1, -2.9f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}.setRegistryName("copper_shovel"));
 	}
 }

@@ -32,7 +32,7 @@ public class JizzHoeItem extends TheHandsomeModModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return -1f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class JizzHoeItem extends TheHandsomeModModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(JizzIngotItem.block, (int) (1)));
 			}
-		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("jizz_hoe"));
 	}
 }

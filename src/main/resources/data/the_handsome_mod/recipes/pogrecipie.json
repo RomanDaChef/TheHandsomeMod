@@ -1,0 +1,13 @@
+{
+  "group": "the_handsome_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_handsome_mod:jizz_bottle"
+    }
+  ],
+  "result": {
+    "item": "the_handsome_mod:pog",
+    "count": 1
+  }
+}

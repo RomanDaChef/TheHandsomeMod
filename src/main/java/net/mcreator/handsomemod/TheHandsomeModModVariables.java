@@ -69,6 +69,7 @@ public class TheHandsomeModModVariables {
 			CompoundNBT nbt = new CompoundNBT();
 			nbt.putDouble("howhorny", instance.howhorny);
 			nbt.putDouble("buttonpresses", instance.buttonpresses);
+			nbt.putDouble("test", instance.test);
 			return nbt;
 		}
 
@@ -77,12 +78,14 @@ public class TheHandsomeModModVariables {
 			CompoundNBT nbt = (CompoundNBT) inbt;
 			instance.howhorny = nbt.getDouble("howhorny");
 			instance.buttonpresses = nbt.getDouble("buttonpresses");
+			instance.test = nbt.getDouble("test");
 		}
 	}
 
 	public static class PlayerVariables {
 		public double howhorny = 0;
 		public double buttonpresses = 0;
+		public double test = 0;
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
 				TheHandsomeModMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) entity),
@@ -117,6 +120,7 @@ public class TheHandsomeModModVariables {
 		PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 		clone.howhorny = original.howhorny;
 		clone.buttonpresses = original.buttonpresses;
+		clone.test = original.test;
 		if (!event.isWasDeath()) {
 		}
 	}
@@ -143,6 +147,7 @@ public class TheHandsomeModModVariables {
 							.orElse(new PlayerVariables()));
 					variables.howhorny = message.data.howhorny;
 					variables.buttonpresses = message.data.buttonpresses;
+					variables.test = message.data.test;
 				}
 			});
 			context.setPacketHandled(true);

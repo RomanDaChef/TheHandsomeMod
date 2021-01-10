@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "stone_axe",
+    "texture": "copper_shovel",
     "customModelName": "Normal",
-    "name": "Jizz Axe",
+    "name": "Copper Shovel",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },
-    "toolType": "Axe",
-    "harvestLevel": 1,
-    "efficiency": 9.0,
+    "toolType": "Spade",
+    "harvestLevel": 2,
+    "efficiency": 8.0,
     "attackSpeed": 1.1,
-    "enchantability": 20,
-    "damageVsEntity": 9.0,
-    "usageCount": 1000,
+    "enchantability": 15,
+    "damageVsEntity": 4.0,
+    "usageCount": 200,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:JizzIngot"
+        "value": "CUSTOM:CopperIngot"
       }
     ],
     "stayInGridWhenCrafting": false,

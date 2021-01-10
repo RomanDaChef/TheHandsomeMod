@@ -32,7 +32,7 @@ public class JizzPickaxeItem extends TheHandsomeModModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class JizzPickaxeItem extends TheHandsomeModModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(JizzIngotItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(HandsomeMiscItemGroup.tab)) {
+		}, 1, -2.6f, new Item.Properties().group(HandsomeMiscItemGroup.tab)) {
 		}.setRegistryName("jizz_pickaxe"));
 	}
 }

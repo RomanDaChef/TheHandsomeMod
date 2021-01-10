@@ -1,0 +1,26 @@
+{
+  "group": "the_handsome_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3  "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_sword"
+    },
+    "1": {
+      "item": "minecraft:stone_pickaxe"
+    },
+    "2": {
+      "item": "minecraft:stone_axe"
+    },
+    "3": {
+      "item": "minecraft:stone_shovel"
+    }
+  },
+  "result": {
+    "item": "the_handsome_mod:stoneaiot",
+    "count": 1
+  }
+}

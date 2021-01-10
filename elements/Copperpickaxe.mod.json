@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "stone_axe",
+    "texture": "copper_pickaxe",
     "customModelName": "Normal",
-    "name": "Jizz Axe",
+    "name": "Copper Pickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },
-    "toolType": "Axe",
-    "harvestLevel": 1,
-    "efficiency": 9.0,
-    "attackSpeed": 1.1,
-    "enchantability": 20,
-    "damageVsEntity": 9.0,
-    "usageCount": 1000,
+    "toolType": "Pickaxe",
+    "harvestLevel": 2,
+    "efficiency": 8.0,
+    "attackSpeed": 1.3,
+    "enchantability": 1,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:JizzIngot"
+        "value": "CUSTOM:CopperIngot"
       }
     ],
     "stayInGridWhenCrafting": false,

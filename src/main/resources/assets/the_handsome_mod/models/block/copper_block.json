@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_handsome_mod:blocks/toolforge_copper",
+    "up": "the_handsome_mod:blocks/toolforge_copper",
+    "north": "the_handsome_mod:blocks/toolforge_copper",
+    "east": "the_handsome_mod:blocks/toolforge_copper",
+    "south": "the_handsome_mod:blocks/toolforge_copper",
+    "west": "the_handsome_mod:blocks/toolforge_copper",
+    "particle": "the_handsome_mod:blocks/toolforge_copper"
+  }
+}
